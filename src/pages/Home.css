@@ -1,0 +1,33 @@
+#bg{
+    background-image: url("../assets/heroimg.png");
+    height: 600px;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box {
+  width: 500px;
+  max-width: 90%;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+}
+.box * {
+  font-family: "Playfair Display", serif;
+}
+.hero-btn {
+  background-color: #2e0a6e;
+  color: #fff;
+  border: none;
+}
+#bg2{
+    background-image: url("https://www.icu.ac.jp/en/assets/img/academics/ph_gs_ma_01.jpg");
+    height: 600px;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
